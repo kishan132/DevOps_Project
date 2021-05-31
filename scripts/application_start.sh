@@ -16,6 +16,7 @@ echo "Installing dependencies..."
 npm install
 npm install pm2 -g
 
+echo "Starting server.."
 pm2 delete all
 pm2 start server.js
 
