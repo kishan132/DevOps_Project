@@ -14,8 +14,8 @@ export NVM_DIR="$HOME/.nvm"
 #install node modules
 echo "Installing dependencies..."
 npm install
-npm install nodemon -g
+npm install pm2 -g
 
-#start our node app
-echo "Starting server..."
-npm run start
+pm2 delete all
+pm2 start server.js
+
