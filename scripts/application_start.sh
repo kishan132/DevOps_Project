@@ -17,5 +17,5 @@ npm install
 npm install nodemon -g
 
 #start our node app
-exho "Starting server..."
+echo "Starting server..."
 npm run start
