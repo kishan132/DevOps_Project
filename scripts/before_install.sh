@@ -6,7 +6,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 nvm install node
 
 #create our working directory if it doesnt exist
-DIR="/home/ec2-user/devops_projects"
+DIR="/home/ubuntu/devops_projects"
 if [ -d "$DIR" ]; then
   echo "${DIR} exists!"
 else
