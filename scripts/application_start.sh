@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the devops_projects directory
-sudo chmod -R 777 /home/ec2-user/devops_projects
+sudo chmod -R 777 /home/ubuntu/devops_projects
 
 #navigate into our working directory where we have all our github files
-cd /home/ec2-user/devops_projects
+cd /home/ubuntu/devops_projects
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
