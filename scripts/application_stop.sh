@@ -1,3 +1,6 @@
+  
 #!/bin/bash
-# stop any old running servers 
-pm2 delete all
+
+#Stopping node servers
+echo "Stopping node servers..."
+pkill node
