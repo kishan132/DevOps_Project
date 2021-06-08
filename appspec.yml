@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /server.js
-    destination: /home/ubuntu/express-app
+  - source: /
+    destination: /home/ubuntu/DevOps_project
 hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
