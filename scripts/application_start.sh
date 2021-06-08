@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #give permission for everything in the devops_projects directory
-sudo chmod -R 777 /home/ubuntu/devops_projects
+sudo chmod -R 777 /home/ubuntu/DevOps_Project
 
 #navigate into our working directory where we have all our github files
-cd /home/ubuntu/devops_projects
+cd /home/ubuntu/DevOps_Project
 
 #add npm and node to path
 export NVM_DIR="$HOME/.nvm"	
@@ -14,7 +14,6 @@ export NVM_DIR="$HOME/.nvm"
 #install node modules
 echo "Installing dependencies..."
 npm install
-npm install nodemon -g
 
 #start our node app
 echo "Starting server..."
